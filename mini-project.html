@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>HomePage</title>
+</head>
+
+<body>
+
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">ENGINEERING STORE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">All Products <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+                    </li>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+              <h2 class="col-lg-9 p-4 mx-auto">LATEST PRODUCTS</h2>
+
+
+            <div class="col-lg-9 p-4 mx-auto">
+                <div class='row'>
+
+                    <div class="card mb-3 mx-2" id={{product.id}} style="width: 15rem; ">
+                        <img src="Maths1.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">ENGINEERING MATHEMATICS | SEM-1</p>
+                            <br>
+                            <p class="card-text"><b>₹ 345</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="ED.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">ENGINEERING DRAWING | SEM-2</p>
+                            <br>
+                            <p class="card-text"><b>₹ 385</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="BEE.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-title">BASIC ELECTRICAL ENGINEERING | SEM-1</p>
+                            <p class="card-text"><b>₹ 225</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 mx-4" id={{product.id}} style="width: 15rem; ">
+                        <img src="SoftwareEngineering.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">SOFTWARE ENGINEERING | SEM-5</p>
+                            <br>
+                            <p class="card-text"><b>₹ 235</b></p>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="PrincipleofCommunication.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">PRINCIPLE OF COMMUNICATION | SEM-3</p>
+                            <p class="card-text"><b>₹ 202</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="COA.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">COMPUTER ARCHITECTURE AND ORGANIZATION | SEM-4</p>
+                            <p class="card-text"><b>₹ 722</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="DSAReema.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">DATA STRUCTURE AND ALGORITHM USING C | SEM-2</p>
+                            <p class="card-text"><b>₹ 358</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mx-4 my-3" id={{product.id}} style="width: 15rem; ">
+                        <img src="FundamentalsofDatabaseSystem.jpg" class="card-img-top" alt="Card image cap">
+                        <div class="card-body">
+                            <br>
+                            <p class="card-title">FUNDAMENTAL OF DATABASE SYSTEMS | SEM-3</p>
+                            <p class="card-text"><b>₹ 620</b></p>
+                            <br>
+                            <button type="button" class="btn btn-primary btn-sm btn-block">Add To Cart</button>
+                        </div>
+                    </div>
+
+                   
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
